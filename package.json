@@ -1,0 +1,47 @@
+{
+  "name": "screenshot",
+  "version": "1.0.0",
+  "description": "server for screenshot from showx and produce iamge for weekly report",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "babel -w src/ -d dist/",
+    "build": "babel src/ -d dist/",
+    "start": "node dist/index.js",
+    "serve": "babel -w src/ -d dist/ | nodemon --watch dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://xutao05@icode.baidu.com:8235/baidu/dsp-inter/screenshot"
+  },
+  "keywords": [
+    "koa",
+    "node",
+    "casperjs"
+  ],
+  "author": "xutao05",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "babel-register": "^6.24.1",
+    "babel-runtime": "^6.23.0",
+    "koa": "2.0.0-alpha.8",
+    "koa-static": "^3.0.0",
+    "moment": "^2.18.1",
+    "node-schedule": "^1.2.3"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "node-promise": "^0.5.12",
+    "nodemon": "^1.11.0"
+  }
+}

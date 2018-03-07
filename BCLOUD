@@ -1,0 +1,1 @@
+BUILD_SUBMITTER -x -m baidu/dsp-inter/screenshot -c "cd baidu/dsp-inter/screenshot && mkdir output && cp BCLOUD ./output/" -u ./
